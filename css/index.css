@@ -211,3 +211,41 @@ footer nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.aboutmiddle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutmiddle div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.aboutmiddle div {
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+.aboutmiddle div h1, .aboutmiddle div p, .aboutmiddle div a{
+    justify-content: space-evenly;
+    width: 92%;
+    padding-top: 2%;
+}
+
+.aboutmiddle div a {
+    padding: 2%;
+    margin: 2% auto;
+    margin-left: 4%;
+    width: 25%;
+    white-space: nowrap;
+    text-decoration: none;
+    border: 1.5px solid black;
+    border-radius: 5%;
+    color: black;
+    margin-bottom: 7%;
+}
