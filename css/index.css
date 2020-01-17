@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+	/* outline: 1px solid red;
+	outline-offset: -1px; */
 }
 
 html, body {
@@ -69,6 +71,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-top: 1%;
 }
 
 .top-content {
@@ -101,16 +104,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +137,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav-first{
+    display: flex;
+}
+
+.nav-first div{
+    display: flex;
+    width: auto;
+    margin-bottom: 3%;
+}
+
+.nav-first div a{
+    width: auto;
+    margin-top: 9%;
+    margin-left: 30%;
+    justify-content: space-around;
+    color: black;
+    text-decoration: none;
+}
+
+.top-content {
+    margin: 2% auto;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes .box.box-one{
+    background: teal;
+}
+.boxes .box.box-two{
+    background: gold;
+}
+.boxes .box.box-three{
+    background: cadetblue;
+}
+.boxes .box.box-four{
+    background: coral;
+}
+.boxes .box.box-five{
+    background: crimson;
+}
+.boxes .box.box-six{
+    background: forestgreen;
+}
+.boxes .box.box-seven{
+    background: darkorchid;
+}
+.boxes .box.box-eight{
+    background: hotpink;
+}
+.boxes .box.box-nine{
+    background: indigo;
+}
+.boxes .box.box-ten{
+    background: dodgerblue;
+}
+
+/* About Page Code */
+
+.top-content .text-container.second-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
